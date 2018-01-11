@@ -1,0 +1,21 @@
+{
+    "name": "node_api",
+    "description": "only test",
+    "version": "1.0.0",
+    "main": "app.js",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/dyegoe/node_api.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/dyegoe/node_api/issues"
+    },
+    "homepage": "https://github.com/dyegoe/node_api",
+    "dependencies": {
+        "express": "^4.16.2"
+    },
+    "scripts": {"start": "node app.js"}
+  }
