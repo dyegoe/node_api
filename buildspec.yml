@@ -16,6 +16,6 @@ phases:
       - echo Build completed on `date`
       - echo Pushing the Docker image...
       - docker push $IMAGE_URI
-      - printf '[{"name":"simple-app","imageUri":"%s"}]' "$IMAGE_URI" > images.json
+      - printf '[{"name":"simple-app","imageUri":"%s"}]' "$IMAGE_URI" > imagedefinitions.json
 artifacts:
-  files: images.json
+  files: imagedefinitions.json
